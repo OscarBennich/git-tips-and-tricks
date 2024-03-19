@@ -13,7 +13,7 @@ Expanded from [these instructions](https://docs.github.com/en/get-started/using-
    git clone --single-branch --branch {{BRANCHNAME}} {{ORIGINAL-REPO-ADDRESS}}
    ```
 
-6. Run the `--subdirectory-filter` command using the `git-filter-repo` tool:
+6. Run the `--subdirectory-filter` command using the `git-filter-repo` tool in the freshly cloned repo:
 
    **MAKE SURE TO USE "/" and not "\\" to delimit folders on Windows**
 
