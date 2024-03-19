@@ -22,7 +22,12 @@ Expanded from [these instructions](https://docs.github.com/en/get-started/using-
    ```
 
 7. Create a new repository
-8. Push these changes to a new remote
+8. Push these changes to the new remote:
+
+   ```
+   git push {{NEW-REPO-ADDRESS}} {{BRANCH-NAME}}
+   ```
+
 9. Create a `main` branch from this branch in the new repo, delete the old branch in the new remote
 10. Set up build validation, policies, etc.
 
