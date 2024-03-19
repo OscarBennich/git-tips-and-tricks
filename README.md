@@ -15,7 +15,7 @@ Expanded from [these instructions](https://docs.github.com/en/get-started/using-
 
 6. Run the `--subdirectory-filter` command using the `git-filter-repo` tool:
 
-   **MAKE SURE TO USE "/" and not "\" to delimit folders**
+   **MAKE SURE TO USE "/" and not "\\" to delimit folders on Windows**
 
    ```
    python {{PATH-TO-GIT-FILTER-REPO-SCRIPT}} --subdirectory-filter {{PATH-TO-FOLDER}}
