@@ -4,16 +4,13 @@
 Expanded from [these instructions](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository).
 
 1. Follow [these instructions](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) and download the `git-filter-repo` script and put it somewhere on your machine - also make sure you have Python installed.
-2. Create a new branch in the original repo, this will be used to move all files & projects that we want to have in the new repo we split off
-3. Move all files & projects that we want to have in the new repo into a separate folder. This folder will become the root folder of the new repository.
-4. Commit these changes to the remote
-5. Make a fresh clone of the repo from this branch (a fresh clone is required for the `git-filter-repo` tool):
+2. Make a fresh clone of the repo from this branch (a fresh clone is required for the `git-filter-repo` tool):
 
    ```
    git clone --single-branch --branch {{BRANCHNAME}} {{ORIGINAL-REPO-ADDRESS}}
    ```
-
-6. Run the `--subdirectory-filter` command using the `git-filter-repo` tool in the freshly cloned repo:
+3. 
+3. Run the `--subdirectory-filter` command using the `git-filter-repo` tool in the freshly cloned repo:
 
    **MAKE SURE TO USE "/" and not "\\" to delimit folders on Windows**
 
