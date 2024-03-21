@@ -45,6 +45,7 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
 > Also note that renames are NOT followed, meaning that if a file has moved into the folder you are filtering out, then the commit history before the move will be gone (unless you include the previous file location too) 
 > 
 > ![image](https://github.com/OscarBennich/git-tips-and-tricks/assets/26872957/bb0c9b2f-92e7-4214-a8a5-0e96188ddfe7)
+> https://htmlpreview.github.io/?https://github.com/newren/git-filter-repo/blob/docs/html/git-filter-repo.html
 
 
 Optional:
