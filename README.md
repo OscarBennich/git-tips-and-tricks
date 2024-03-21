@@ -41,6 +41,11 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
 > This new repository will contain only the relevant commit history for the files you chose to include
 >
 > Keep in mind that the commit hashes **will be changed**
+>
+> Also note that renames are NOT followed, meaning that if a file has moved into the folder you are filtering out, then the commit history before the move will be gone (unless you include the previous file location too) 
+> 
+> ![image](https://github.com/OscarBennich/git-tips-and-tricks/assets/26872957/bb0c9b2f-92e7-4214-a8a5-0e96188ddfe7)
+
 
 Optional:
 
