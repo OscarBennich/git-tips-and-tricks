@@ -26,7 +26,7 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
    For example:
 
    ```
-   .\..\GitMove-ViedocDesigner.ps1 C:\Users\my-user\source\repos\test\git-filter-repo
+   .\..\GitMove-MultiPath.ps1 C:\Users\my-user\source\repos\test\git-filter-repo
    ```
 
 7. Create a new repository
