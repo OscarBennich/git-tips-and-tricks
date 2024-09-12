@@ -52,3 +52,9 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
 Optional:
 
 - Delete the files in the old repo and push these changes to the trunk if you do not want to keep the files in both repos
+
+## How to duplicate a repository without forking it
+
+If you want to create a new repository from the contents of an existing repository but don't want to merge your changes to the upstream in the future, you shouldn't fork it but instead duplicate it.
+
+Go [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) for specific instructions on how to do this.
