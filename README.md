@@ -16,7 +16,7 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
 
 4. Figure out what folders & files that need to be moved to the new repo
    > Note: If you move a specific file, any folder(s) it is part of will be automatically added
-5. Open the [script](GitMove-MultiPath.ps1) in the root of this repo and add the path(s) from the root of the cloned repo
+5. Open the [script](GitMove-MultiPath.ps1) in the root of this repo and add the path(s) from the root of the cloned repo to the files and folders
    > Note: Windows users should use '/' to delimit folders (**not** '\\')
 7. CD into the cloned repo and run the script from inside it:
 
