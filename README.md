@@ -15,9 +15,10 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
    ```
 
 4. Figure out what folders & files that need to be moved to the new repo
-   > Any folders will be automatically added if you move a file in that folder
+   > Note: If you move a specific file, any folder(s) it is part of will be automatically added
 5. Open the [script](GitMove-MultiPath.ps1) in the root of this repo and add the path(s) from the root of the cloned repo
-6. CD into the cloned repo and run the script from inside it:
+   > Note: Windows users should use '/' to delimit folders (**not** '\\')
+7. CD into the cloned repo and run the script from inside it:
 
    ```
    .\{{RELATIVE-PATH-TO-UTILITY-SCRIPT}} {{PATH-TO-GIT-FILTER-REPO-SCRIPT}}
@@ -29,15 +30,15 @@ The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
    .\..\GitMove-MultiPath.ps1 C:\Users\my-user\source\repos\test\git-filter-repo
    ```
 
-7. Create a new repository
-8. Push these changes to the new remote:
+8. Create a new repository
+9. Push these changes to the new remote:
 
    ```
    git push {{NEW-REPO-ADDRESS}} {{BRANCH-NAME}}
    ```
 
-9. Create a `main` branch from this branch in the new repo, delete the old branch in the new remote
-10. Set up build validation, policies, etc.
+10. Create a `main` branch from this branch in the new repo, delete the old branch in the new remote
+11. Set up build validation, policies, etc.
 
 > This new repository will contain only the relevant commit history for the files you chose to include
 >
