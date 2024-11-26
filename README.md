@@ -58,4 +58,4 @@ Optional:
 
 If you want to create a new repository from the contents of an existing repository but don't want to merge your changes to the upstream in the future, you shouldn't fork it but instead _duplicate_ it.
 
-Go [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) for specific instructions on how to do this.
+Go [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) or [here](https://www.atlassian.com/git/tutorials/git-move-repository) for specific instructions on how to do this.
