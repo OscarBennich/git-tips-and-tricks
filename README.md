@@ -59,3 +59,25 @@ Optional:
 If you want to create a new repository from the contents of an existing repository but don't want to merge your changes to the upstream in the future, you shouldn't fork it but instead _duplicate_ it.
 
 Go [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) or [here](https://www.atlassian.com/git/tutorials/git-move-repository) for specific instructions on how to do this.
+
+## Git hooks
+See https://git-scm.com/book/ms/v2/Customizing-Git-Git-Hooks
+
+1. Add a script that will be executed
+2. Either manually add this hook to the correct `.git/hooks` folder or execute it through a script such as this (PowerShell in this case):
+
+```ps1
+# This scripts installs a "precommit hook" for this repo, so that the script ./scripts/Pre-Commit.ps1 will
+# always run when the developer runs `git commit` without the `--no-verify` flag
+
+Set-StrictMode -Version 3.0
+$ErrorActionPreference = "Stop"
+
+$hookPath = git rev-parse --git-path hooks
+
+$sourceFile = Join-Path $PSScriptRoot pre-commit-hook
+
+Write-Host "Copying the hook source file to $hookPath"
+
+Copy-Item $sourceFile $hookPath/pre-commit
+```
