@@ -2,9 +2,7 @@
 
 ## How to split code from a repository into a new one and only keep relevant history
 
-Expanded from [these instructions](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository).
-
-The [Git-filter-repo tool](https://github.com/newren/git-filter-repo).
+Expanded from [these instructions](https://docs.github.com/en/get-started/using-git/splitting-a-subfolder-out-into-a-new-repository). *[Here](https://github.com/newren/git-filter-repo) you can find the repo for the Git-filter-repo tool.*
 
 1. Follow [these instructions](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) and download the `git-filter-repo` script and put it somewhere on your machine - also make sure you have Python installed.
 2. Create a new branch in the repo you want to move
