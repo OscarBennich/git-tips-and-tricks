@@ -79,3 +79,13 @@ Write-Host "Copying the hook source file to $hookPath"
 
 Copy-Item $sourceFile $hookPath/pre-commit
 ```
+
+## Using `--no-pager` and setting git `pager` settings to false
+1. `git --no-pager diff`
+2. `git config --global pager.diff false`
+3. `git config --global pager.log false`
+
+## Using `git add -p` to stage specific hunks
+
+## Wildcard search for branches
+- `git branch --list *search term*`
