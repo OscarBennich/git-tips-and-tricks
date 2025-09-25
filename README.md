@@ -89,3 +89,13 @@ Copy-Item $sourceFile $hookPath/pre-commit
 
 ## Wildcard search for branches
 - `git branch --list *search term*`
+
+## Editing a specific commit
+1. Get the git hash by running `git log`
+2. Double check using `git show {{HASH}}`
+3. Run `git rebase --i {{HASH}}~`
+4. Choose to edit the commit
+5. Commit your new changes
+6. Run `git rebase --continue`
+
+(copied from [this post](https://stackoverflow.com/a/1186549))
