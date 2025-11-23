@@ -99,3 +99,6 @@ Copy-Item $sourceFile $hookPath/pre-commit
 6. Run `git rebase --continue`
 
 (copied from [this post](https://stackoverflow.com/a/1186549))
+
+## Adding message/reminder to stashed code
+- `git stash push -m 'Message goes here'`
